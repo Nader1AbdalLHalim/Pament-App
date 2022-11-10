@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="APP START">
+      <UniqueIdentifier>{56e16c55-1d1f-4c29-bc77-c84a0f516e88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CARD">
+      <UniqueIdentifier>{fcf5d8cc-1f3a-4f33-9145-d874d12bdc85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TERMINAL">
+      <UniqueIdentifier>{c30ea4d4-f56d-4f52-9f1e-7da6c6b71088}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SERVER">
+      <UniqueIdentifier>{e1367719-baec-48bf-b848-64350f7b6557}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="app.h">
+      <Filter>APP START</Filter>
+    </ClInclude>
+    <ClInclude Include="card.h">
+      <Filter>CARD</Filter>
+    </ClInclude>
+    <ClInclude Include="terminal.h">
+      <Filter>TERMINAL</Filter>
+    </ClInclude>
+    <ClInclude Include="server.h">
+      <Filter>SERVER</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="app.c">
+      <Filter>APP START</Filter>
+    </ClCompile>
+    <ClCompile Include="card.c">
+      <Filter>CARD</Filter>
+    </ClCompile>
+    <ClCompile Include="terminal.c">
+      <Filter>TERMINAL</Filter>
+    </ClCompile>
+    <ClCompile Include="server.c">
+      <Filter>SERVER</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c" />
+  </ItemGroup>
+</Project>
